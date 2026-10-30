@@ -1,0 +1,430 @@
+{
+  "profiles": [
+    {
+      "id": "usr_asad_admin",
+      "email": "asad@nexora.ai",
+      "password_hash": "721824c6e08918e130f53c186f4b9d3304c2200db0cb31141a7189a159e9de17",
+      "full_name": "Asad Ali Awan",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&h=200&q=80",
+      "role": "admin",
+      "company": "NEXORA AI",
+      "bio": "Founder & Platform Owner of NEXORA AI",
+      "created_at": "2026-10-30T12:48:54.719Z",
+      "updated_at": "2026-10-30T12:49:08.734Z"
+    }
+  ],
+  "user_roles": [
+    {
+      "id": "ur_admin",
+      "user_id": "usr_asad_admin",
+      "role": "admin",
+      "granted_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_asad",
+      "user_id": "usr_asad_admin",
+      "plan_id": "plan_pro",
+      "status": "active",
+      "current_period_start": "2026-10-30T12:48:54.719Z",
+      "current_period_end": "2027-10-30T12:48:54.720Z",
+      "cancel_at_period_end": false,
+      "payment_provider": "internal_admin"
+    }
+  ],
+  "subscription_plans": [
+    {
+      "id": "plan_free",
+      "name": "Free Workspace",
+      "tier": "free",
+      "price_monthly": 0,
+      "price_annual": 0,
+      "credit_limit": 50,
+      "features": [
+        "50 Daily AI Credits",
+        "AI Writing Studio (Basic)",
+        "PDF Text Extraction & Summary",
+        "1 Custom Chatbot",
+        "Community Support",
+        "Personal Workspace"
+      ],
+      "is_active": true
+    },
+    {
+      "id": "plan_starter",
+      "name": "Starter Pro",
+      "tier": "starter",
+      "price_monthly": 9,
+      "price_annual": 89,
+      "credit_limit": 500,
+      "features": [
+        "500 Monthly AI Credits",
+        "All 18 Writing Studio Modes",
+        "Document Q&A & Resume Builder",
+        "3 Custom Chatbots with Knowledge Base",
+        "Business Document Templates",
+        "Export to DOCX, PDF & Markdown",
+        "Standard Support"
+      ],
+      "is_active": true
+    },
+    {
+      "id": "plan_pro",
+      "name": "Pro Creator",
+      "tier": "pro",
+      "price_monthly": 19,
+      "price_annual": 189,
+      "credit_limit": 2500,
+      "features": [
+        "2,500 Monthly AI Credits",
+        "Full Access to All 7 AI Studios",
+        "AI Marketing Campaign Planner",
+        "Deterministic Business Invoicing & Quotes",
+        "Unlimited Chatbots with Embed Widget",
+        "Priority Gemini 3.8 Flash Execution",
+        "Priority 24/7 Support",
+        "High-speed Export & Analytics"
+      ],
+      "is_active": true
+    },
+    {
+      "id": "plan_business",
+      "name": "Business Enterprise",
+      "tier": "business",
+      "price_monthly": 39,
+      "price_annual": 389,
+      "credit_limit": 8000,
+      "features": [
+        "8,000 Monthly AI Credits",
+        "Team & Multi-seat Workspace",
+        "Customer Lead Capture in Chatbots",
+        "Dedicated API Key Access",
+        "Custom Brand Voice & SEO Modeling",
+        "Admin Audit Logs & Team Roles",
+        "Dedicated Account Manager"
+      ],
+      "is_active": true
+    }
+  ],
+  "credit_balances": [
+    {
+      "id": "cb_asad",
+      "user_id": "usr_asad_admin",
+      "balance": 5000,
+      "daily_limit": 5000,
+      "monthly_limit": 25000,
+      "used_today": 0,
+      "last_reset": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "credit_transactions": [
+    {
+      "id": "tx_init_asad",
+      "user_id": "usr_asad_admin",
+      "amount": 5000,
+      "balance_after": 5000,
+      "type": "subscription_renewal",
+      "description": "Pro Plan allocation of 5,000 credits for Platform Owner",
+      "timestamp": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "ai_generations": [
+    {
+      "id": "gen_1",
+      "user_id": "usr_asad_admin",
+      "studio": "writing",
+      "tool": "SEO Article Generator",
+      "prompt": "The Future of Autonomous AI Workspaces in 2026",
+      "parameters": {
+        "tone": "authoritative",
+        "target_audience": "Founders & Engineers",
+        "length": "long"
+      },
+      "output": "# The Future of Autonomous AI Workspaces in 2026\n\nAs organizations shift from fragmented generative tools to unified workspaces, NEXORA AI provides a cohesive intelligence layer...",
+      "credits_used": 25,
+      "status": "completed",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "ai_usage_logs": [
+    {
+      "id": "log_1",
+      "user_id": "usr_asad_admin",
+      "provider": "Google Gemini",
+      "model": "gemini-3.8-flash",
+      "tokens_input": 420,
+      "tokens_output": 1250,
+      "latency_ms": 1280,
+      "status": "success",
+      "timestamp": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "user_id": "usr_asad_admin",
+      "title": "NEXORA Enterprise Architecture",
+      "description": "Comprehensive marketing copy, ad creative concepts, and customer onboarding sequence for NEXORA AI.",
+      "category": "Marketing",
+      "tags": [
+        "Launch",
+        "Enterprise",
+        "NEXORA"
+      ],
+      "is_pinned": true,
+      "created_at": "2026-10-30T12:48:54.719Z",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "proj_2",
+      "user_id": "usr_asad_admin",
+      "title": "SaaS Architecture & Investor Overview",
+      "description": "Complete business plan, revenue forecast, quotation breakdown, and platform scaling strategy.",
+      "category": "Business",
+      "tags": [
+        "Pitch",
+        "Financials",
+        "Strategy"
+      ],
+      "is_pinned": false,
+      "created_at": "2026-10-30T12:48:54.719Z",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "project_files": [
+    {
+      "id": "pf_1",
+      "project_id": "proj_1",
+      "user_id": "usr_asad_admin",
+      "name": "email_welcome_sequence.md",
+      "content": "# Day 1 Welcome Email\n\nSubject: Welcome to NEXORA AI — Let's unlock your creative velocity.\n\nHey there,\n\nWelcome to the future of AI workspace productivity...",
+      "file_type": "markdown",
+      "size": 1420,
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "chatbots": [
+    {
+      "id": "bot_1",
+      "user_id": "usr_asad_admin",
+      "name": "NEXORA AI Concierge",
+      "avatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=120&h=120&q=80",
+      "system_prompt": "You are an intelligent support concierge for NEXORA AI. Be concise, polite, and guide customers on plans, studios, and integrations.",
+      "welcome_message": "Hello! I am your NEXORA AI Concierge. How can I assist your team today?",
+      "primary_color": "#8B5CF6",
+      "is_active": true,
+      "leads_collected": 18,
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "chatbot_knowledge": [
+    {
+      "id": "ck_1",
+      "chatbot_id": "bot_1",
+      "title": "Plans & Pricing FAQ",
+      "content": "Free plan has 50 daily credits. Starter is $9/mo with 500 credits. Pro is $19/mo with 2500 credits. Business is $39/mo with 8000 credits and team seats.",
+      "type": "faq",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "ck_2",
+      "chatbot_id": "bot_1",
+      "title": "Supported AI Studios",
+      "content": "NEXORA AI features 7 core studios: AI Writing, AI Image, AI Video, AI Document, AI Chatbot, AI Marketing, and AI Business Assistant.",
+      "type": "doc",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "chatbot_conversations": [
+    {
+      "id": "conv_1",
+      "chatbot_id": "bot_1",
+      "session_id": "sess_demo_101",
+      "user_name": "Enterprise Client",
+      "user_email": "client@enterprise.io",
+      "created_at": "2026-10-30T12:48:54.719Z",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "chatbot_messages": [
+    {
+      "id": "msg_1",
+      "conversation_id": "conv_1",
+      "sender": "bot",
+      "text": "Hello! I am your NEXORA AI Concierge. How can I assist your team today?",
+      "timestamp": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "msg_2",
+      "conversation_id": "conv_1",
+      "sender": "user",
+      "text": "Does NEXORA offer team collaboration and shared workspaces?",
+      "timestamp": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "msg_3",
+      "conversation_id": "conv_1",
+      "sender": "bot",
+      "text": "Yes! The Business Enterprise plan ($39/month) includes multi-seat workspaces, shared projects, team credit pooling, and lead capture capabilities.",
+      "timestamp": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_1092",
+      "user_id": "usr_asad_admin",
+      "subscription_id": "sub_asad",
+      "invoice_number": "NEX-2026-00481",
+      "amount": 19,
+      "currency": "USD",
+      "status": "paid",
+      "invoice_url": "#invoice-download",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "payment_events": [
+    {
+      "id": "pe_1",
+      "provider": "LemonSqueezy",
+      "event_type": "subscription_created",
+      "payload": {
+        "order_id": "ord_9921",
+        "plan": "pro",
+        "amount": 19
+      },
+      "processed": true,
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "user_id": "usr_asad_admin",
+      "title": "Welcome to NEXORA AI",
+      "message": "Your Pro Plan allocation of 5,000 credits is active. Launch any of the 7 AI Studios from your dashboard!",
+      "type": "success",
+      "is_read": false,
+      "created_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "notif_2",
+      "user_id": "usr_asad_admin",
+      "title": "Gemini 3.8 Flash Active",
+      "message": "All studio generation pipelines are now utilizing the latest Gemini 3.8 Flash model with sub-second response times.",
+      "type": "info",
+      "is_read": true,
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "support_tickets": [
+    {
+      "id": "tkt_1",
+      "user_id": "usr_asad_admin",
+      "subject": "Platform Production Initialization",
+      "message": "NEXORA AI workspace deployed with enterprise RLS security and verified deterministic calculations.",
+      "priority": "normal",
+      "status": "resolved",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": "post_1",
+      "slug": "mastering-ai-productivity-workspace-2026",
+      "title": "Mastering the AI Workspace: How Top Teams 10x Their Output",
+      "excerpt": "Discover why switching between 10 fragmented AI tools kills productivity, and how unified studio environments restore flow.",
+      "content": "Modern founders and creators are overwhelmed by tab fatigue. In this guide, we break down unified AI workflows across writing, document intelligence, chatbots, and business planning...",
+      "author": "Asad Ali Awan",
+      "category": "Productivity",
+      "read_time": "6 min read",
+      "cover_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "published_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "post_2",
+      "slug": "building-knowledge-grounded-chatbots",
+      "title": "Zero Hallucinations: How Knowledge-Grounded AI Chatbots Protect Brands",
+      "excerpt": "Learn how modern customer support chatbots ingest PDF guides and FAQs to deliver accurate answers with human handover.",
+      "content": "Customer trust is fragile. A chatbot that invents refund policies or incorrect technical specifications destroys credibility. Grounding chatbots in verified knowledge bases solves this...",
+      "author": "Asad Ali Awan",
+      "category": "Engineering & AI",
+      "read_time": "8 min read",
+      "cover_image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+      "published_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "id": "post_3",
+      "slug": "deterministic-financials-meet-generative-ai",
+      "title": "Why AI Should Never Guess Your Invoices: The Power of Deterministic Calculations",
+      "excerpt": "Why high-performing SaaS tools pair verified mathematical calculations with AI-enhanced summaries and client notes.",
+      "content": "When generating business proposals, quotes, and tax summaries, relying purely on LLM probability is risky. NEXORA AI solves this by computing deterministic math on the server...",
+      "author": "NEXORA AI Research",
+      "category": "Business & SaaS",
+      "read_time": "5 min read",
+      "cover_image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "published_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "referrals": [],
+  "affiliate_commissions": [],
+  "feedback": [
+    {
+      "id": "fb_1",
+      "user_id": "usr_asad_admin",
+      "rating": 5,
+      "comment": "The AI Writing Studio with audience and tone controls cut our weekly newsletter production time by 80%.",
+      "studio": "writing",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "api_keys": [
+    {
+      "id": "key_1",
+      "user_id": "usr_asad_admin",
+      "key_name": "Production Server Bot Integration",
+      "key_hash": "2251a314dd244260a4637d61958a6723522ba968fa8710e5dc5a63059ef03744",
+      "prefix": "nex_live_9a8b...",
+      "is_active": true,
+      "last_used": "2026-10-30T12:48:54.719Z",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud_1",
+      "user_id": "usr_asad_admin",
+      "action": "SYSTEM_BOOT",
+      "resource": "Core Server Layer",
+      "details": "NEXORA AI database initialized with 25 tables and security policies.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-30T12:48:54.719Z"
+    }
+  ],
+  "admin_settings": [
+    {
+      "key": "maintenance_mode",
+      "value": false,
+      "description": "Global maintenance mode switch",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "key": "default_free_credits",
+      "value": 50,
+      "description": "Daily credit allocation for free tier users",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "key": "active_ai_model",
+      "value": "gemini-3.8-flash",
+      "description": "Default LLM model provider",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    },
+    {
+      "key": "signups_enabled",
+      "value": true,
+      "description": "Allow new user registrations",
+      "updated_at": "2026-10-30T12:48:54.719Z"
+    }
+  ]
+}

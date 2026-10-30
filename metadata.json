@@ -1,0 +1,6 @@
+{
+  "name": "NEXORA AI",
+  "description": "NEXORA AI — All-in-one AI workspace for writing, documents, chatbots, marketing, business, and creative productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
